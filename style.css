@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1 {
+    background-color: #081b31;
+    color:white;
+    height : 5rem;
+    line-height: 5rem;
+}
+
+.choice {
+    height : 160px;
+    width : 160px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.choice:hover {
+    /* opacity : 0.5; */
+    cursor: pointer;
+    background-color: #081b31;
+}
+
+img{
+    height: 150px;
+    width : 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.choices {
+    display: flex;
+    justify-content: center;  /*to make the content at the center and align at the  center*/
+    align-items: center;
+    gap: 3rem;
+    margin-top: 1rem;
+}
+
+.score-board {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-top: 3rem;
+    gap: 5rem;
+}
+.msg-container {
+    margin-top: 5rem;
+}
+
+#msg {
+    background-color: black;
+    color: white;
+    font-size: 2rem;
+    display: inline; /* to give background color in selected areas only */
+    padding : 1rem; /* padding is used to increase the background region from every direction */
+    border-radius: 1rem;
+}
+
+#user-score , #comp-score , #game-count{
+    font-size: 4rem;
+}
+
+#restart-btn{
+    margin-top: 1rem;
+    padding : 1rem;
+    font-size: 1.25rem;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 1rem;
+    border : none;
+}
